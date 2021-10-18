@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [runtestcases]">
+  <test thread-count="5" name="practise(failed)">
+    <classes>
+      <class name="TestNG.DifferentUrl">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+          <include name="GotoYoutube"/>
+        </methods>
+      </class> <!-- TestNG.DifferentUrl -->
+    </classes>
+  </test> <!-- practise(failed) -->
+</suite> <!-- Failed suite [runtestcases] -->
